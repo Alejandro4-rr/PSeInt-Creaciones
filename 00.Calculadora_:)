@@ -1,0 +1,43 @@
+Algoritmo sin_titulo
+	
+	// Valores para facilitar programa
+	
+	Definir numerouno,numerodos,eleccion,resultado Como Entero
+	
+	//Preguntas al público
+	
+	Escribir "Escribe un número"
+	Leer numerouno
+	Escribir "Escribe tu segundo número"
+	Leer numerodos
+	
+	//Segunda pregunta
+	
+	Escribir "¿Qué deseas realizar?"
+	Escribir "1.Sumar"
+	Escribir "2.Restar"
+	Escribir "3.Multiplicar"
+	Leer eleccion
+	
+	//Lo gordo
+	
+	Segun eleccion Hacer
+		1:
+			resultado = numerouno + numerodos
+			Escribir "Tu resultado es ", resultado
+		2:
+			resultado = numerouno - numerodos
+			Escribir "Tu resultado es ", resultado
+		3:
+			resultado = numerouno * numerodos
+			Escribir "Tu resultado es ", resultado
+		De Otro Modo:
+			Escribir "Opción incorrecta"
+	Fin Segun
+	
+	
+	
+	
+	
+FinAlgoritmo
+
