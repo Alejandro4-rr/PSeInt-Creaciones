@@ -1,0 +1,11 @@
+Algoritmo Ecuación_cuadrática
+	Escribir "Buenas, necesito que me des tres valores para formar una ecuacion de segundo grado, por favor escribe el primer número"
+	Leer numero1
+	Escribir "El segundo numero"
+	Leer numero2
+	Escribir "Y el último número"
+	Leer numero3
+	Escribir "Gracias tu ecuación es " (numero1 * (x * x)) + (numero2 * x) + (numero3) " y tu resultado es " 
+	
+	
+FinAlgoritmo

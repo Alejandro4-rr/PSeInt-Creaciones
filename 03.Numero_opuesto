@@ -1,0 +1,9 @@
+Algoritmo Opuesto_de_un_número
+	Escribir "Escribe un número y te diré el opuesto"
+	Leer número
+	Escribir "Tu número es " número * (-1)
+	
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,5 @@
+Algoritmo Saludo
+	Escribir "Hola, ¿Cuál es tu nombre?"
+	Leer nombre
+	Escribir "Encantado de conocerte " nombre
+FinAlgoritmo

@@ -1,0 +1,5 @@
+Algoritmo Circulo
+	Escribir "Puedo hacer magia, si me escribes un número, puedo decirte la longitud y superficie del círculo"
+	Leer radio
+	Escribir "La longitud es " radio * PI * 2 " y la superficie es " PI * (radio * radio)
+FinAlgoritmo

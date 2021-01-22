@@ -1,0 +1,5 @@
+Algoritmo Suma_anterior_y_posterior
+	Escribir "Introduce un numero, por favor"
+	Leer número
+	Escribir "La suma anterior a ese número es " número + (número - 1) " y la suma posterior es " número + (número + 1)
+FinAlgoritmo
