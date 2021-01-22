@@ -2,7 +2,7 @@ Algoritmo sin_titulo
 	
 	// Valores para facilitar programa
 	
-	Definir numerouno,numerodos,eleccion,resultado Como Entero
+	Definir numerouno,numerodos,eleccion,resultado Como Real
 	
 	//Preguntas al público
 	
@@ -17,6 +17,7 @@ Algoritmo sin_titulo
 	Escribir "1.Sumar"
 	Escribir "2.Restar"
 	Escribir "3.Multiplicar"
+	Escribir "4.División"
 	Leer eleccion
 	
 	//Lo gordo
@@ -31,6 +32,10 @@ Algoritmo sin_titulo
 		3:
 			resultado = numerouno * numerodos
 			Escribir "Tu resultado es ", resultado
+		4:	
+			resultado = numerouno / numerodos
+			Escribir "Tu resultado es ", resultado
+			
 		De Otro Modo:
 			Escribir "Opción incorrecta"
 	Fin Segun
