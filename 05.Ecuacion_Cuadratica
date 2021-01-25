@@ -1,11 +1,25 @@
 Algoritmo Ecuación_cuadrática
-	Escribir "Buenas, necesito que me des tres valores para formar una ecuacion de segundo grado, por favor escribe el primer número"
-	Leer numero1
-	Escribir "El segundo numero"
-	Leer numero2
-	Escribir "Y el último número"
-	Leer numero3
-	Escribir "Gracias tu ecuación es " (numero1 * (x * x)) + (numero2 * x) + (numero3) " y tu resultado es " 
 	
+	Definir a,b,c,x1,x2 Como real
+	
+	Escribir "Buenas, necesito que me des tres valores para formar una ecuacion de segundo grado, por favor escribe el primer número"
+	Leer a
+	Escribir "El segundo numero"
+	Leer b
+	Escribir "Y el último número"
+	Leer c
+	
+	x = (b*b)-4*a*c
+	
+	Si x<0 Entonces
+		Escribir "No existe una solución"
+	SiNo
+		x1=((-1*(b))+RC(x))/(2*a)
+		x2=((-1*(b))-RC(x))/(2*a)
+	Fin Si
+	
+	Escribir "La primera solución es " x1
+	Escribir "La segunda solución es " x2
+	Escribir "Y tu ecuación es " (ax^2)+(b*x)+c
 	
 FinAlgoritmo
