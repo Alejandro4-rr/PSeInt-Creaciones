@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	
+	definir n1,n2,n3 Como Real
+	
+	Escribir "Necesito que me digas tres número y comprobare si es segundo número se encuentra entre el primero y el tercero, dígame su primer número"
+	Leer n1
+	Escribir "Ahora el segundo"
+	Leer n2
+	Escribir "Y el tercero"
+	Leer n3
+	
+FinAlgoritmo

@@ -20,6 +20,6 @@ Algoritmo Ecuación_cuadrática
 	
 	Escribir "La primera solución es " x1
 	Escribir "La segunda solución es " x2
-	Escribir "Y tu ecuación es " (ax^2)+(b*x)+c
+	Escribir "Y tu ecuación es " a "x^2 " b "x +" c
 	
 FinAlgoritmo

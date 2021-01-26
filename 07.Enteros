@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	
+	Escribir "Hola, necesito que me digas un número"
+	Leer digito
+	
+	Si digito<0 Entonces
+		Escribir "Tu número es negativo"
+	FinSi
+	Si digito>0 Entonces
+		Escribir "Tu número es positivo"
+	Fin Si
+	Si digito=0 Entonces
+		Escribir "Tu número es el 0"
+	Fin Si
+	
+FinAlgoritmo

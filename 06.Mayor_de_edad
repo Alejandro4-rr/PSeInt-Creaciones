@@ -1,0 +1,15 @@
+Algoritmo Mayor_de_edad
+	
+	Definir edad Como Real
+	
+	Escribir "Buenas, necesito que me digas tu edad"
+	Leer edad
+	Si edad>17 Entonces
+		Escribir "Usted es mayor de edad"
+	Sino
+		Escribir "Usted es menor de edad"
+	Fin Si
+	
+	
+	
+FinAlgoritmo
