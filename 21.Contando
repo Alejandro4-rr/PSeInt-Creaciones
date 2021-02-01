@@ -1,0 +1,12 @@
+Algoritmo Contando
+	
+	Definir digito Como entero
+	
+	Escribir "Hola, ingresa un numero"
+	Leer digito
+	
+	Para digito<-1 Hasta digito Hacer
+		Escribir Sin Saltar digito," "
+	Fin Para
+	
+FinAlgoritmo

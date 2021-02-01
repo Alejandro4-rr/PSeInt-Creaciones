@@ -1,0 +1,12 @@
+Algoritmo El_escondite
+	
+	Definir digito Como entero
+	
+	Escribir "Hola, ingresa un numero"
+	Leer digito
+	
+	Para digito<-digito Hasta 0 Con Paso -1 Hacer
+		Escribir Sin Saltar digito," "
+	Fin Para
+	
+FinAlgoritmo
