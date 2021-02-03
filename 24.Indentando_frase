@@ -1,0 +1,38 @@
+Algoritmo Indentando_frases
+	
+	definir fila Como Entero
+	Escribir "frase"
+	Leer frase
+	Escribir "dime un numero"
+	Leer ancho
+	Escribir "Ahora dime un número"
+	Leer alto
+	
+	Para fila<-1 Hasta alto Hacer
+		Para columna<-1 Hasta ancho Hacer
+			Escribir Sin Saltar frase
+		Fin Para
+		
+		Escribir ""
+		
+	Fin Para
+	
+	Para i=1 Hasta 13 Hacer
+		resultado=Concatenar(resultado,espacio)
+	Fin Para
+	
+	Escribir resultado
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+FinAlgoritmo

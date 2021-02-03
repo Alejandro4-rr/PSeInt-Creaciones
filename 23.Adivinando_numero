@@ -3,17 +3,21 @@ Algoritmo Pensando_un_número
 	Definir n,x Como Entero
 	
 	x=azar(10)
-	Repetir
-		Escribir "Hola quiero que pienses en un número del 1 al 10"
+	
+	Escribir "Hola quiero que pienses en un número del 1 al 10"
+	
+	Mientras n!=x Hacer
 		Leer n
 		Si n<x Entonces
 			Escribir "Su número es mas grande"
-		Sino
+		Fin Si	
+		Si n>x Entonces
 			Escribir "Su número es mas pequeño"
 		Fin Si
-		Escribir "Vuelve a intentarlo"
-	Hasta Que n=x
-	Escribir "Felicidades, lo has acertado"
+		Si n=x Entonces
+			Escribir "Felicidades, lo has acertado"
+		Fin Si
+	Fin Mientras
 	
 	
 	
