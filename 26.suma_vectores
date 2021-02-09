@@ -1,0 +1,35 @@
+Algoritmo Opuestos_valores_negativos
+	
+	Escribir "Dime de cuantos numeros será tu primer vector"
+	Leer c
+	Escribir "Dime de cuantos numeros será tu segundo vector"
+	Leer c2
+	
+	Dimension capacidad[c]
+	Dimension capacidad2[c2]
+	
+	Para i<-1 Hasta c Hacer
+		Escribir "Escribe un numero para tu primer vector :" i
+		Leer capacidad[i]
+	Fin Para
+	
+	Para j<-1 Hasta c2 Hacer
+		Escribir "Escribe un numero para tu segundo vector :" j
+		Leer capacidad2[j]
+	Fin Para
+	
+	Escribir "Los numeros de tu primer vector son "
+	Para i<-1 Hasta c Con Paso 1 Hacer
+		Escribir capacidad[i]
+	Fin Para
+	
+	Escribir "Los numeros de tu segundo vector son "
+	Para j<-1 Hasta c2 Con Paso 1 Hacer
+		Escribir capacidad2[j]
+	Fin Para
+	
+	Escribir "La suma de los dos vectores es la siguiente : " c + c2
+	
+	
+FinAlgoritmo
+

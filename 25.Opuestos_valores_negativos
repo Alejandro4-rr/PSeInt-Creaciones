@@ -1,0 +1,25 @@
+Algoritmo Opuestos_valores_negativos
+	
+	Escribir "Dame una idea de numero"
+	Leer c
+	
+	Definir n Como Entero
+	Dimension capacidad[c]
+	
+	Para i<-1 Hasta c Hacer
+		Escribir "Escribe un numero" i
+		Leer capacidad[i]
+	Fin Para
+	Escribir "Los numeros son "
+	Para i<-1 Hasta c Con Paso 1 Hacer
+		Escribir capacidad[i] * (-1)
+	Fin Para
+	
+	
+	
+	
+	
+	
+	
+	
+FinAlgoritmo
