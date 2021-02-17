@@ -1,0 +1,46 @@
+Algoritmo Contando_Vocales
+	
+	Escribir "Ingrese una frase "
+	Leer frase
+	
+	p<-1
+	c<-0
+	c1<-0
+	c2<-0
+	c3<-0
+	c4<-0
+	Repetir
+		L<-Subcadena(frase,p,p)
+		Si L="a" Entonces
+			c=c+1
+		Sino
+			Si L="e" Entonces
+				c1=c1+1
+			Sino
+				Si L="i" Entonces
+					c2=c2+1
+				Sino
+					Si L="o" Entonces
+						c3=c3+1
+					Sino
+						Si L="u" Entonces
+							c4=c4+1
+						Fin Si
+					Fin Si
+				Fin Si
+			Fin Si
+		Fin Si
+		c6<-c+c1+c2+c3+c4
+		p=p+1
+	Hasta Que p>Longitud(frase)
+	Escribir "El total de vocales es " c6
+	Escribir "En a hay " c
+	Escribir "En e hay " c1
+	Escribir "En i hay " c2
+	Escribir "En o hay " c3
+	Escribir "En u hay " c4
+	
+	
+	
+	
+FinAlgoritmo
