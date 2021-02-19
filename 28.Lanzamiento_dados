@@ -1,45 +1,46 @@
 Algoritmo Simular_dados
 	
-	//Lanzamiento de dado
+	//Lanzamiento de dado y calculo
 	
 	Definir n Como Entero
 	Escribir "Voy a tirar un dado"
-	n=Aleatorio(1,6)
-	Escribir "Ha salido " n
-	
-	//Probabilidades
-	Si n=1 Entonces
-		acciones_por_verdadero
-	Sino
-		Si n=2 Entonces
-			acciones_por_verdadero
+	Para x<-1 Hasta 6000 Hacer
+		n=Aleatorio(1,6)
+		Escribir "Ha salido " n
+		Si n=1 Entonces
+			a=a +1
 		Sino
-			Si n=3 Entonces
-				acciones_por_verdadero
+			Si n=2 Entonces
+				b=b+1
 			Sino
-				Si n=4 Entonces
-					acciones_por_verdadero
+				Si n=3 Entonces
+					c=c+1
 				Sino
-					Si n=5 Entonces
-						acciones_por_verdadero
+					Si n=4 Entonces
+						d=d+1
 					Sino
-						Si n=6 Entonces
-							acciones_por_verdadero
+						Si n=5 Entonces
+							e=e+1
+						Sino
+							Si n=6 Entonces
+								f=f+1
+							Fin Si
 						Fin Si
 					Fin Si
 				Fin Si
 			Fin Si
 		Fin Si
-	Fin Si
+	Fin Para
+	
+	//Resultados
 	
 	
+	Escribir "La posibilidad de que salga 1 es " (a/6000)*100 "%"
+	Escribir "La posibilidad de que salga 2 es " (b/6000)*100 "%"
+	Escribir "La posibilidad de que salga 3 es " (c/6000)*100 "%"
+	Escribir "La posibilidad de que salga 4 es " (d/6000)*100 "%"
+	Escribir "La posibilidad de que salga 5 es " (e/6000)*100 "%"
+	Escribir "La posibilidad de que salga 6 es " (f/6000)*100 "%"
 	
 	
-	
-	
-	
-	
-	
-	
-	
-FinAlgoritmo
+	FinAlgoritmo

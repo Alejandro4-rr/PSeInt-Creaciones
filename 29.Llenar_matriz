@@ -1,0 +1,14 @@
+Algoritmo Llenar_matriz
+	
+	Escribir "dime una fila"
+	Leer fila
+	Escribir "dime una columna"
+	Leer columna
+	
+	Para x<-1 Hasta 10 Hacer
+		secuencia_de_acciones
+	Fin Para
+	
+	
+	
+FinAlgoritmo
