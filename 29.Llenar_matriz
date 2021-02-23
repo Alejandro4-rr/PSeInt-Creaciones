@@ -1,14 +1,26 @@
 Algoritmo Llenar_matriz
 	
-	Escribir "dime una fila"
-	Leer fila
-	Escribir "dime una columna"
-	Leer columna
+	Definir numer Como Entero
+	Definir Filas Como Entero
+	Definir Columnas Como Entero
 	
-	Para x<-1 Hasta 10 Hacer
-		secuencia_de_acciones
+	Escribir "Dime el número de filas"
+	Leer Filas
+	Escribir "Dime el número de columnas"
+	Leer Columnas
+	Dimension numer[Filas,Columnas]
+	
+	Para i<-1 Hasta Filas Con Paso 1 Hacer
+		Para j<-1 Hasta Columnas Con Paso 1 Hacer
+			numer[i,j]<-azar(10)
+		Fin Para
 	Fin Para
 	
-	
+	Para i<-1 Hasta Filas Con Paso 1 Hacer
+		Para j<-1 Hasta Columnas Con Paso 1 Hacer
+			Escribir numer[i,j] " " Sin Saltar
+		Fin Para
+		Escribir " "
+	Fin Para
 	
 FinAlgoritmo
