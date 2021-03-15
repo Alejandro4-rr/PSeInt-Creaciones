@@ -1,0 +1,19 @@
+Algoritmo Nomina
+	
+	Escribir "Cuantas horas has trabajado"
+	Leer horas
+	
+	Si horas>40 Entonces
+		Escribir "Has ganado " (((horas-40)*40)+1200) "$"
+	SiNo
+		Escribir "Has ganado " horas*30 "$"
+	Fin Si
+	
+	
+	
+	
+	
+	
+	
+	
+FinAlgoritmo

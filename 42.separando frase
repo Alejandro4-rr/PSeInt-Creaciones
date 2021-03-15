@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	Escribir "Digame una frase"
+	Leer palabra
+	
+	L = Longitud(palabra)
+	
+	cadena=SubCadena(palabra,i,j)
+	Dimension letras[L]
+	
+
+	Para i<-1 Hasta L Con Paso 1 Hacer
+		letras[i]= Subcadena(palabra,i,i)
+	Fin Para
+	Para j<-1 Hasta L Con Paso 1 Hacer
+		Escribir j, " ", letras[j]
+	Fin Para
+	
+FinAlgoritmo

@@ -1,0 +1,32 @@
+Funcion SepararLetras ( palabra )
+	
+	Definir L,veces Como Entero
+	L= Longitud(palabra)
+	Para i<-1 Hasta L Con Paso 1 Hacer
+		veces = BuscarLetras ( palabra, Subcadena(palabra,i,i))
+		Escribir "La letra " Subcadena(palabra,i,i) " esta " veces " veces en la palabra"
+	Fin Para
+	
+Fin Funcion
+
+Funcion veces <- BuscarLetras ( cadena,letra )
+	Definir  contar Como Entero
+	Para i<-1 Hasta Longitud(cadena) Con Paso 1 Hacer
+		Si (Subcadena(cadena,i,i)= letra) Entonces
+			contar= contar + 1
+		Fin Si
+	Fin Para
+	veces = contar
+Fin Funcion
+
+
+
+Algoritmo separando_frase2
+	
+	definir cadena Como Caracter
+	Escribir "Dime una palabra"
+	Leer cadena
+	SepararLetras(cadena)
+	
+	
+FinAlgoritmo
