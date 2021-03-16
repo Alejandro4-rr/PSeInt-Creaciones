@@ -3,12 +3,12 @@ Proceso Ejercicio1
 	//Preguntar
 	
 	Escribir "Buenas, vas a jugar a Piedra,papel y tijera contra la máquina"
-	Escribir "¿Qué opción deseas jugar?."
+	Escribir "¿Qué opción deseas jugar?"
 	Escribir "1.-Piedra"
 	Escribir "2.-Papel"
 	Escribir "3.-Tijera"
 	Repetir
-        Leer respuesta;
+        Leer respuesta
         Si respuesta<1 O respuesta>3 Entonces
             Escribir Sin Saltar " Esa opción no está en las posibles, intentalo que nuevo "
         FinSi
